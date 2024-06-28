@@ -1,0 +1,22 @@
+{
+    "name": "wukerundecompserces/wukerundeces",
+    "type": "library",
+    "description": "php composer 发布测试",
+    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wukerun",
+            "email": "username@example.com",
+            "homepage": "https://github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+            "psr-4": {
+               "wukeruntest\\": "src/"
+            }
+    }
+}
